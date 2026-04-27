@@ -14,5 +14,5 @@ frontend:
   replicas: 3
   image: frontend4:latest
   imagePullPolicy: IfNotPresent
-
+  port: 5000
   
