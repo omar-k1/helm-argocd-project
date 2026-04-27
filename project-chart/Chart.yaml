@@ -1,0 +1,6 @@
+apiVersion: v2
+name: myapp
+description: Full 3-tier application (frontend, backend, mongodb) deployed using Helm
+type: application
+version: 0.1.0
+
