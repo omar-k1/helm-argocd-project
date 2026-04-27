@@ -12,5 +12,5 @@ backend:
 
 frontend:
   replicas: 3
-  image: frontend4:latest
+  image: frontend1:latest
   imagePullPolicy: IfNotPresent
