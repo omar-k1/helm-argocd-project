@@ -6,7 +6,7 @@ database:
   replicas: 1
 
 backend:
-  replicas: 4
+  replicas: 3
   image: backend:latest
   imagePullPolicy: IfNotPresent
 
@@ -14,7 +14,3 @@ frontend:
   replicas: 3
   image: frontend4:latest
   imagePullPolicy: IfNotPresent
-<<<<<<< HEAD
-  
-=======
->>>>>>> 82de418 (test)
