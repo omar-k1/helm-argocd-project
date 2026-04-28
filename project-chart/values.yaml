@@ -6,7 +6,7 @@ database:
   replicas: 1
 
 backend:
-  replicas: 4
+  replicas: 3
   image: backend:latest
   imagePullPolicy: IfNotPresent
 
